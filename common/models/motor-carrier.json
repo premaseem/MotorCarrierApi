@@ -1,0 +1,93 @@
+{
+  "name": "MotorCarrier",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "DOT_NUMBER": {
+      "type": "number",
+      "required": true
+    },
+    "LEGAL_NAME": {
+      "type": "string"
+    },
+    "DBA_NAME": {
+      "type": "string"
+    },
+    "CARRIER_OPERATION": {
+      "type": "string"
+    },
+    "HM_FLAG": {
+      "type": "string"
+    },
+    "PC_FLAG": {
+      "type": "string"
+    },
+    "PHY_STREET": {
+      "type": "string"
+    },
+    "PHY_CITY": {
+      "type": "string"
+    },
+    "PHY_STATE": {
+      "type": "string"
+    },
+    "PHY_ZIP": {
+      "type": "string"
+    },
+    "PHY_COUNTRY": {
+      "type": "string"
+    },
+    "MAILING_STREET": {
+      "type": "string"
+    },
+    "MAILING_CITY": {
+      "type": "string"
+    },
+    "MAILING_STATE": {
+      "type": "string"
+    },
+    "MAILING_ZIP": {
+      "type": "string"
+    },
+    "MAILING_COUNTRY": {
+      "type": "string"
+    },
+    "TELEPHONE": {
+      "type": "string"
+    },
+    "FAX": {
+      "type": "string"
+    },
+    "EMAIL_ADDRESS": {
+      "type": "string"
+    },
+    "MCS150_DATE": {
+      "type": "string"
+    },
+    "MCS150_MILEAGE": {
+      "type": "number"
+    },
+    "MCS150_MILEAGE_YEAR": {
+      "type": "number"
+    },
+    "ADD_DATE": {
+      "type": "string"
+    },
+    "OIC_STATE": {
+      "type": "string"
+    },
+    "NBR_POWER_UNIT": {
+      "type": "number"
+    },
+    "DRIVER_TOTAL": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
